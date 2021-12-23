@@ -1,0 +1,101 @@
+.teatures{
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    margin-top: 8.3%;
+    margin-bottom: 11.6%;
+}
+.caf-zagolovok{
+    text-align: center;
+    margin-bottom: 100px;
+    font-family: 'Regular';
+    font-size: 36px;
+    margin-top: 110px;
+}
+.teatures h5{
+    text-align: left;
+    font-family: 'ExtraBold';
+    font-size: 18px;
+    color: #717171;
+    margin-bottom: 30px;
+}
+.teatures h5:hover{
+    color: #18cfab;
+    cursor: pointer;
+}
+.teatures h2{
+    font-family: 'Regular';
+    text-align: center;
+    font-size: 36px;
+    
+}
+.teatures{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+.caf{
+    width: 325px;
+    height: 115px;
+    margin-bottom: 85px;
+    /* margin-top: 80px; */
+}
+.caf p{
+    color: gray;
+    text-align: left;
+    font-family: 'Light';
+    font-size: 14px;
+}
+.caf h5::before{
+    background-image: url(../img/spritesheet.png);
+    background-repeat: no-repeat;
+    transform: translateX(-25px);
+    content: '';
+    display: inline-block;
+}
+.teatures .caf div:nth-child(1) h5::before{
+    width: 25px;
+    height: 34px;
+    background-position: -10px -10px;
+}
+.teatures .caf div:nth-child(2) h5::before{
+    width: 27px;
+    height: 27px;
+    background-position: -10px -64px;
+}
+.teatures .caf div:nth-child(3) h5::before{
+    width: 28px;
+    height: 38px;
+    background-position: -10px -111px;
+}
+.teatures .caf div:nth-child(4) h5::before{
+    width: 22px;
+    height: 30px;
+    background-position: -10px -159px;
+}
+.teatures .caf div:nth-child(5) h5::before{
+    width: 34px;
+    height: 22px;
+    background-position: -10px -209px;
+}
+.teatures .caf div:nth-child(6) h5::before{
+    width: 25px;
+    height: 34px;
+    background-position: -10px -10px;
+}
+.teatures .caf div:nth-child(7) h5::before{
+    width: 25px;
+    height: 34px;
+    background-position: -10px -10px;
+}
+.teatures .caf div:nth-child(8) h5::before{
+    width: 25px;
+    height: 34px;
+    background-position: -10px -10px;
+}
+.teatures .caf div:nth-child(9) h5::before{
+    width: 25px;
+    height: 34px;
+    background-position: -10px -10px;
+}
